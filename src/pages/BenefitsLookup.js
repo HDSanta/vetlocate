@@ -1,28 +1,28 @@
-import React, { useState } from 'react';
-import { getBenefits } from '../services/claudeApi';
+import React, { useState } from "react";
+import { getBenefits } from "../services/claudeApi";
 
 const RATINGS = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
 function BenefitsLookup() {
-  const [location, setLocation] = useState('');
+  const [location, setLocation] = useState("");
   const [rating, setRating] = useState(100);
-  const [benefits, setBenefits] = useState('');
+  const [benefits, setBenefits] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
 
   const handleSearch = async () => {
     if (!location.trim()) {
-      setError('Please enter a city, state, or ZIP code.');
+      setError("Please enter a city, state, or ZIP code.");
       return;
     }
-    setError('');
+    setError("");
     setLoading(true);
-    setBenefits('');
+    setBenefits("");
     try {
       const result = await getBenefits(location, rating);
       setBenefits(result);
     } catch (err) {
-      setError('Error fetching benefits. Check your API key and try again.');
+      setError("Error fetching benefits. Check your API key and try again.");
     }
     setLoading(false);
   };
@@ -37,8 +37,8 @@ function BenefitsLookup() {
           type="text"
           value={location}
           onChange={(e) => setLocation(e.target.value)}
-          placeholder="e.g. Prescott AZ or 86301"
-          style={{ width: "100%", padding: "10px", fontSize: "16px", borderRadius: "6px", border: "1px solid #ccc" }}
+          placeholder="City, State or ZIP (e.g. Prescott AZ)"
+          style={{ width: "100%", padding: "10px", fontSize: "16px", borderRadius: "6px", border: "1px solid #ccc", boxSizing: "border-box" }}
           onKeyDown={(e) => e.key === "Enter" && handleSearch()}
         />
       </div>

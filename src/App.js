@@ -10,15 +10,19 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <nav className="navbar">
-          <div className="nav-brand">⭐ VetLocate</div>
-          <div className="nav-links">
-            <Link to="/">Benefits Lookup</Link>
-            <Link to="/facilities">VA Facilities</Link>
-            <Link to="/compare">Compare Locations</Link>
-            <Link to="/profile">My Profile</Link>
-          </div>
-        </nav>
+<nav className="navbar">
+  <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div className="nav-brand">⭐ VetLocate</div>
+    <div className="nav-links">
+      <Link to="/">Benefits Lookup</Link>
+      <Link to="/facilities">VA Facilities</Link>
+      <Link to="/compare">Compare Locations</Link>
+    </div>
+  </div>
+  <div className="nav-right">
+    <Link to="/profile" className="nav-profile-btn">👤 My Profile</Link>
+  </div>
+</nav>
         <main className="main-content">
           <Routes>
             <Route path="/" element={<BenefitsLookup />} />
