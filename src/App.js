@@ -5,6 +5,7 @@ import VAFacilities from './pages/VAFacilities';
 import LocationCompare from './pages/LocationCompare';
 import PropertyTaxLookup from "./pages/PropertyTaxLookup";
 import GunLaws from "./pages/GunLaws";
+import MilitaryTax from "./pages/MilitaryTax";
 import Profile from './pages/Profile';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
       <Link to="/facilities">VA Facilities</Link>
       <Link to="/compare">Compare Locations</Link>
       <Link to="/property-tax">Property Tax</Link>
+      <Link to="/military-tax">Military Tax</Link>
       <Link to="/gun-laws">Gun Laws</Link>
     </div>
   </div>
@@ -34,6 +36,7 @@ function App() {
             <Route path="/compare" element={<LocationCompare />} />
               <Route path="/property-tax" element={<PropertyTaxLookup />} />
               <Route path="/gun-laws" element={<GunLaws />} />
+              <Route path="/military-tax" element={<MilitaryTax />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </main>
