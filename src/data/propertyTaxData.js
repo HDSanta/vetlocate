@@ -7,7 +7,11 @@ const propertyTaxData = {
       primaryResidence: "Yes",
       survivingSpouse: "Yes",
       application: "Apply through Yavapai County Assessor",
-      link: "https://www.yavapaiaz.gov/assessor"
+      link: "https://www.yavapaiaz.gov/assessor",
+      sourceName: "Yavapai County Assessor",
+      sourceType: "County Agency",
+      lawReference: "ARS § 42-11111",
+      lastVerified: "2025-01"
     },
     Maricopa: {
       benefit: "Disabled Veteran Property Tax Exemption",
@@ -16,7 +20,11 @@ const propertyTaxData = {
       primaryResidence: "Yes",
       survivingSpouse: "Yes",
       application: "Apply through Maricopa County Assessor",
-      link: "https://mcassessor.maricopa.gov"
+      link: "https://mcassessor.maricopa.gov",
+      sourceName: "Maricopa County Assessor",
+      sourceType: "County Agency",
+      lawReference: "ARS § 42-11111",
+      lastVerified: "2025-01"
     }
   },
 
@@ -28,7 +36,11 @@ const propertyTaxData = {
       primaryResidence: "Yes",
       survivingSpouse: "Yes",
       application: "Apply through Escambia County Property Appraiser",
-      link: "https://escpa.org"
+      link: "https://escpa.org",
+      sourceName: "Escambia County Property Appraiser",
+      sourceType: "County Agency",
+      lawReference: "Florida Statute § 196.081",
+      lastVerified: "2025-01"
     }
   }
   ,Texas: {
@@ -39,7 +51,11 @@ const propertyTaxData = {
       primaryResidence: "Yes",
       survivingSpouse: "Yes, for surviving spouses of 100% disabled veterans under qualifying conditions",
       application: "Apply through the county appraisal district where the property is located",
-      link: "https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-faq.php"
+      link: "https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-faq.php",
+      sourceName: "Texas Comptroller of Public Accounts",
+      sourceType: "State Agency",
+      lawReference: "Texas Tax Code § 11.22",
+      lastVerified: "2025-01"
     }
   }
 ,Nevada: {
