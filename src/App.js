@@ -4,6 +4,7 @@ import BenefitsLookup from './pages/BenefitsLookup';
 import VAFacilities from './pages/VAFacilities';
 import LocationCompare from './pages/LocationCompare';
 import PropertyTaxLookup from "./pages/PropertyTaxLookup";
+import GunLaws from "./pages/GunLaws";
 import Profile from './pages/Profile';
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
       <Link to="/facilities">VA Facilities</Link>
       <Link to="/compare">Compare Locations</Link>
       <Link to="/property-tax">Property Tax</Link>
+      <Link to="/gun-laws">Gun Laws</Link>
     </div>
   </div>
   <div className="nav-right">
@@ -31,6 +33,7 @@ function App() {
             <Route path="/facilities" element={<VAFacilities />} />
             <Route path="/compare" element={<LocationCompare />} />
               <Route path="/property-tax" element={<PropertyTaxLookup />} />
+              <Route path="/gun-laws" element={<GunLaws />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </main>
