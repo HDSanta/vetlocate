@@ -209,52 +209,7 @@ function PropertyTaxLookup() {
             <option>100%</option>
           </select>
         </div>
-        <div style={{ width: "140px" }}>
-          <label style={{ fontWeight: "600", display: "block", marginBottom: "12px" }}>P&amp;T</label>
-
-          <label
-            style={{
-              position: "relative",
-              display: "inline-block",
-              width: "58px",
-              height: "32px"
-            }}
-          >
-            <input
-              type="checkbox"
-              checked={isPT}
-              onChange={(e) => setIsPT(e.target.checked)}
-              style={{ opacity: 0, width: 0, height: 0 }}
-            />
-            <span
-              style={{
-                position: "absolute",
-                cursor: "pointer",
-                top: 0,
-                left: 0,
-                right: 0,
-                bottom: 0,
-                backgroundColor: isPT ? "#1a3a5c" : "#cbd5e1",
-                borderRadius: "999px",
-                transition: "0.2s"
-              }}
-            >
-              <span
-                style={{
-                  position: "absolute",
-                  height: "24px",
-                  width: "24px",
-                  left: isPT ? "30px" : "4px",
-                  top: "4px",
-                  backgroundColor: "white",
-                  borderRadius: "50%",
-                  transition: "0.2s",
-                  boxShadow: "0 1px 4px rgba(0,0,0,0.25)"
-                }}
-              />
-            </span>
-          </label>
-        </div>
+        
         <div style={{ flex: "1 1 100%", minWidth: "100%" }}>
           <label style={{ fontWeight: "600" }}>County</label>
 
