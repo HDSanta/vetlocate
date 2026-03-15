@@ -263,7 +263,7 @@ const propertyTaxData = {
     }
   },
 
-  "NewJersey: {
+  "NewJersey": {
     statewide: {
       benefit: "New Jersey Disabled Veteran Property Tax Exemption",
       eligibility: "100% permanently and totally disabled veteran as rated by the VA. Must be New Jersey resident and own primary residence.",
@@ -327,7 +327,7 @@ const propertyTaxData = {
     }
   },
 
-  "SouthCarolina: {
+  "SouthCarolina": {
     statewide: {
       benefit: "South Carolina Disabled Veteran Property Tax Exemption",
       eligibility: "100% service-connected permanently and totally disabled veteran as rated by the VA. Must be South Carolina resident.",
