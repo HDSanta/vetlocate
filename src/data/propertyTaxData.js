@@ -1,5 +1,18 @@
 const propertyTaxData = {
   Arizona: {
+    statewide: {
+      benefit: "Arizona Disabled Veteran Property Tax Exemption",
+      eligibility: "Arizona resident with service-connected disability. Exemption amount increases with disability rating. 100% P&T veterans qualify for the maximum exemption.",
+      exemptionAmount: "Up to $4,188 assessed value exemption; higher for 100% P&T veterans depending on income and property value",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes",
+      application: "Apply through your county assessor's office",
+      link: "https://azdor.gov/businesses-arizona/unclaimed-property/veteran-exemptions",
+      sourceName: "Arizona Department of Revenue",
+      sourceType: "State Agency",
+      lawReference: "ARS § 42-11111",
+      lastVerified: "2025-01"
+    },
     Yavapai: {
       benefit: "Disabled Veteran Property Tax Exemption",
       eligibility: "Arizona resident with service-connected disability. Higher exemptions for 100% P&T.",
