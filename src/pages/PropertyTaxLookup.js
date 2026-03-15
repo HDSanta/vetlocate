@@ -5,7 +5,6 @@ import usCounties from "../data/usCounties";
 function PropertyTaxLookup() {
   const [selectedState, setSelectedState] = useState("");
   const [selectedRating, setSelectedRating] = useState("");
-  const [isPT, setIsPT] = useState(false);
   const [countySearch, setCountySearch] = useState("");
   
   const countyList = selectedState ? usCounties[selectedState] || [] : [];
@@ -299,10 +298,7 @@ function PropertyTaxLookup() {
             <strong>VA Rating:</strong> {selectedRating}
           </p>
 
-          <p style={{ margin: "6px 0" }}>
-            <strong>P&T:</strong> {isPT ? "Yes" : "No"}
-          </p>
-
+          
           {benefitData ? (
             <>
               <p style={{ margin: "10px 0" }}>
