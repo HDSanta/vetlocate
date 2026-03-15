@@ -343,6 +343,22 @@ const propertyTaxData = {
     }
   }
 
+,"West Virginia": {
+    statewide: {
+      benefit: "West Virginia Disabled Veteran Property Tax Exemption",
+      eligibility: "100% service-connected permanently and totally disabled veteran as rated by the VA. Must be West Virginia resident and own primary residence.",
+      exemptionAmount: "Full property tax exemption on primary residence for 100% P&T disabled veterans",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county assessor's office",
+      link: "https://tax.wv.gov/Individuals/PropertyTax/Pages/PropertyTaxExemptionforDisabledVeterans.aspx",
+      sourceName: "West Virginia State Tax Department",
+      sourceType: "State Agency",
+      lawReference: "WV Code § 11-6B-1",
+      lastVerified: "2025-01"
+    }
+  }
+
 };
 
 export default propertyTaxData;
