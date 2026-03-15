@@ -247,6 +247,102 @@ const propertyTaxData = {
     }
   }
 
+,NewYork: {
+    statewide: {
+      benefit: "New York Eligible Funds and Cold War Veterans Exemption",
+      eligibility: "Veterans with service-connected disability. 100% disabled veterans qualify for maximum exemption. Must be New York resident.",
+      exemptionAmount: "Varies by municipality; up to full exemption for 100% disabled veterans in participating counties",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your local assessor's office by March 1",
+      link: "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
+      sourceName: "New York State Department of Taxation and Finance",
+      sourceType: "State Agency",
+      lawReference: "NY Real Property Tax Law § 458-a",
+      lastVerified: "2025-01"
+    }
+  },
+
+  NewJersey: {
+    statewide: {
+      benefit: "New Jersey Disabled Veteran Property Tax Exemption",
+      eligibility: "100% permanently and totally disabled veteran as rated by the VA. Must be New Jersey resident and own primary residence.",
+      exemptionAmount: "Full property tax exemption on primary residence",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains full exemption",
+      application: "Apply through your local municipal tax assessor",
+      link: "https://www.nj.gov/treasury/taxation/lpt/lpt-disabledvet.shtml",
+      sourceName: "New Jersey Division of Taxation",
+      sourceType: "State Agency",
+      lawReference: "NJ Statute § 54:4-3.30",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Pennsylvania: {
+    statewide: {
+      benefit: "Pennsylvania Disabled Veteran Real Estate Tax Exemption",
+      eligibility: "100% permanently and totally disabled veteran as rated by the VA. Must be Pennsylvania resident.",
+      exemptionAmount: "Full property tax exemption on primary residence",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county Board of Assessment Appeals",
+      link: "https://www.pa.gov/en/agencies/revenue/resources/tax-types-and-information/personal-income-tax/tax-relief-for-veterans.html",
+      sourceName: "Pennsylvania Department of Revenue",
+      sourceType: "State Agency",
+      lawReference: "51 Pa. C.S. § 8902",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Maryland: {
+    statewide: {
+      benefit: "Maryland Disabled Veteran Property Tax Exemption",
+      eligibility: "100% service-connected permanently disabled veteran as rated by the VA. Must be Maryland resident.",
+      exemptionAmount: "Full property tax exemption on primary residence",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your local county or city assessment office",
+      link: "https://dat.maryland.gov/realproperty/Pages/Maryland-Disabled-Veterans-Exemption.aspx",
+      sourceName: "Maryland Department of Assessments and Taxation",
+      sourceType: "State Agency",
+      lawReference: "Maryland Tax-Property Code § 7-208",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Georgia: {
+    statewide: {
+      benefit: "Georgia Disabled Veteran Homestead Exemption",
+      eligibility: "Veteran with 100% service-connected disability or receiving 100% compensation due to individual unemployability. Must be Georgia resident.",
+      exemptionAmount: "Full property tax exemption on primary residence for 100% disabled veterans",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county tax commissioner or tax assessor",
+      link: "https://veterans.georgia.gov/services/state-benefits/property-tax-exemption",
+      sourceName: "Georgia Department of Veterans Service",
+      sourceType: "State Agency",
+      lawReference: "Georgia Code § 48-5-48",
+      lastVerified: "2025-01"
+    }
+  },
+
+  SouthCarolina: {
+    statewide: {
+      benefit: "South Carolina Disabled Veteran Property Tax Exemption",
+      eligibility: "100% service-connected permanently and totally disabled veteran as rated by the VA. Must be South Carolina resident.",
+      exemptionAmount: "Full property tax exemption on primary residence",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county auditor's office",
+      link: "https://www.sc.gov/residents/military-veterans/veteran-benefits/property-tax-exemption",
+      sourceName: "South Carolina Department of Revenue",
+      sourceType: "State Agency",
+      lawReference: "SC Code § 12-37-220",
+      lastVerified: "2025-01"
+    }
+  }
+
 };
 
 export default propertyTaxData;
