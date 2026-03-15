@@ -29,7 +29,7 @@ function App() {
         <span style={{
           cursor: "pointer",
           padding: "0 12px",
-          color: "#1a3a5c",
+          color: "white",
           fontWeight: "600",
           fontSize: "0.95em"
         }}>
