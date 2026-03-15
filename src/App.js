@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import BenefitsLookup from './pages/BenefitsLookup';
 import VAFacilities from './pages/VAFacilities';
@@ -10,6 +10,7 @@ import Profile from './pages/Profile';
 import './App.css';
 
 function App() {
+  const [taxMenuOpen, setTaxMenuOpen] = useState(false);
   return (
     <Router>
       <div className="app">
@@ -20,8 +21,64 @@ function App() {
       <Link to="/">Lookup Benefits</Link>
       <Link to="/facilities">VA Facilities</Link>
       <Link to="/compare">Compare Locations</Link>
-      <Link to="/property-tax">Property Tax</Link>
-      <Link to="/military-tax">Military Tax</Link>
+      <div
+        style={{ position: "relative", display: "inline-block" }}
+        onMouseEnter={() => setTaxMenuOpen(true)}
+        onMouseLeave={() => setTaxMenuOpen(false)}
+      >
+        <span style={{
+          cursor: "pointer",
+          padding: "0 12px",
+          color: "#1a3a5c",
+          fontWeight: "600",
+          fontSize: "0.95em"
+        }}>
+          💲 Tax Benefits ▾
+        </span>
+        {taxMenuOpen && (
+          <div style={{
+            position: "absolute",
+            top: "100%",
+            left: 0,
+            backgroundColor: "white",
+            border: "1px solid #ddd",
+            borderRadius: "8px",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+            minWidth: "180px",
+            zIndex: 1000,
+            padding: "8px 0"
+          }}>
+            <Link
+              to="/property-tax"
+              onClick={() => setTaxMenuOpen(false)}
+              style={{
+                display: "block",
+                padding: "10px 16px",
+                color: "#1a3a5c",
+                textDecoration: "none",
+                fontSize: "0.9em",
+                fontWeight: "500"
+              }}
+            >
+              🏠 Property Tax
+            </Link>
+            <Link
+              to="/military-tax"
+              onClick={() => setTaxMenuOpen(false)}
+              style={{
+                display: "block",
+                padding: "10px 16px",
+                color: "#1a3a5c",
+                textDecoration: "none",
+                fontSize: "0.9em",
+                fontWeight: "500"
+              }}
+            >
+              💰 Military Retirement Tax
+            </Link>
+          </div>
+        )}
+      </div>
       <Link to="/gun-laws">Gun Laws</Link>
     </div>
   </div>
