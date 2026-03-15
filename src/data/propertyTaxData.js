@@ -151,6 +151,102 @@ const propertyTaxData = {
     }
   }
 
+,Ohio: {
+    statewide: {
+      benefit: "Ohio Disabled Veteran Property Tax Exemption",
+      eligibility: "100% service-connected disabled veteran or surviving spouse. Must be Ohio resident and own primary residence.",
+      exemptionAmount: "$50,000 of home market value exempt from property taxes",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county auditor's office",
+      link: "https://tax.ohio.gov/individual/resources/veterans-exemption",
+      sourceName: "Ohio Department of Taxation",
+      sourceType: "State Agency",
+      lawReference: "Ohio Revised Code § 323.152",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Michigan: {
+    statewide: {
+      benefit: "Michigan Disabled Veteran Property Tax Exemption",
+      eligibility: "100% permanently and totally disabled veteran as determined by the VA. Must be Michigan resident.",
+      exemptionAmount: "Full property tax exemption on primary residence",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse may retain exemption",
+      application: "Apply through your local city or township assessor",
+      link: "https://www.michigan.gov/taxes/property/exemptions/disabled-veterans-exemption",
+      sourceName: "Michigan Department of Treasury",
+      sourceType: "State Agency",
+      lawReference: "MCL § 211.7b",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Illinois: {
+    statewide: {
+      benefit: "Illinois Disabled Veteran Standard Homestead Exemption",
+      eligibility: "Service-connected disability of 30% or more. 100% disabled veterans receive the maximum exemption.",
+      exemptionAmount: "$2,500 reduction (30-49%), $5,000 reduction (50-69%), full exemption (70%+ or 100% P&T)",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — surviving spouse of 100% disabled veteran may retain exemption",
+      application: "Apply through your county chief county assessment officer",
+      link: "https://tax.illinois.gov/individuals/veterans.html",
+      sourceName: "Illinois Department of Revenue",
+      sourceType: "State Agency",
+      lawReference: "35 ILCS 200/15-169",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Missouri: {
+    statewide: {
+      benefit: "Missouri Disabled Veteran Property Tax Credit",
+      eligibility: "100% service-connected disabled veteran or prisoner of war. Must be Missouri resident.",
+      exemptionAmount: "Up to $1,100 property tax credit annually",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse qualifies",
+      application: "File Form MO-PTC through the Missouri Department of Revenue",
+      link: "https://dor.mo.gov/personal/ptc/",
+      sourceName: "Missouri Department of Revenue",
+      sourceType: "State Agency",
+      lawReference: "RSMo § 135.010",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Kansas: {
+    statewide: {
+      benefit: "Kansas Disabled Veteran Property Tax Exemption",
+      eligibility: "100% service-connected permanently disabled veteran as rated by the VA. Must be Kansas resident.",
+      exemptionAmount: "Full property tax exemption on primary residence for 100% P&T veterans",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county appraiser's office",
+      link: "https://www.ksrevenue.gov/pvd-disabledveterans.html",
+      sourceName: "Kansas Department of Revenue",
+      sourceType: "State Agency",
+      lawReference: "Kansas Statute § 79-4521",
+      lastVerified: "2025-01"
+    }
+  },
+
+  Oklahoma: {
+    statewide: {
+      benefit: "Oklahoma Disabled Veteran Property Tax Exemption",
+      eligibility: "100% service-connected disabled veteran as rated by the VA. Must be Oklahoma resident and own primary residence.",
+      exemptionAmount: "Full property tax exemption on primary residence valued up to $200,000",
+      primaryResidence: "Yes",
+      survivingSpouse: "Yes — unremarried surviving spouse retains exemption",
+      application: "Apply through your county assessor's office",
+      link: "https://www.ok.gov/tax/Individuals/Motor_Vehicle/Disabled_Veterans_Benefits/",
+      sourceName: "Oklahoma Tax Commission",
+      sourceType: "State Agency",
+      lawReference: "Oklahoma Statute Title 68 § 2889",
+      lastVerified: "2025-01"
+    }
+  }
+
 };
 
 export default propertyTaxData;
