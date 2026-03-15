@@ -29,11 +29,11 @@ function App() {
         <span style={{
           cursor: "pointer",
           padding: "0 12px",
-          color: "white",
-          fontWeight: "600",
+          color: "rgba(255,255,255,0.75)",
+          fontWeight: "400",
           fontSize: "0.95em"
         }}>
-          💲 Tax Benefits ▾
+          <span style={{ color: "#FFD700", fontWeight: "700" }}>$</span> Tax Benefits ▾
         </span>
         {taxMenuOpen && (
           <div style={{
