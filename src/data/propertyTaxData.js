@@ -87,7 +87,7 @@ const propertyTaxData = {
     }
   },
 
-  NorthCarolina: {
+  "North Carolina": {
     statewide: {
       benefit: "North Carolina Disabled Veteran Homestead Exclusion",
       eligibility: "100% permanently and totally disabled veteran or rated individually unemployable (TDIU). Must be honorably discharged.",
