@@ -33,7 +33,7 @@ function App() {
           fontWeight: "400",
           fontSize: "0.95em"
         }}>
-          <span style={{ color: "#FFD700", fontWeight: "700" }}>$</span> Tax Benefits ▾
+          <span className="gold-sparkle" style={{ fontWeight: "700" }}>$</span> Tax Benefits ▾
         </span>
         {taxMenuOpen && (
           <div style={{

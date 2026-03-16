@@ -12,11 +12,12 @@
 }
 
 .nav-brand {
-  color: white;
+  color: #CD7F32;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
   text-decoration: none;
+  text-shadow: 0 0 6px rgba(205, 127, 50, 0.4);
 }
 
 .nav-links {
@@ -66,4 +67,16 @@
 
 .main-content {
   min-height: calc(100vh - 56px);
+}
+@keyframes goldSparkle {
+  0%   { color: #FFD700; text-shadow: 0 0 4px rgba(255, 215, 0, 0.4); }
+  25%  { color: #FFF0A0; text-shadow: 0 0 10px rgba(255, 215, 0, 0.9); }
+  50%  { color: #FFD700; text-shadow: 0 0 4px rgba(255, 215, 0, 0.4); }
+  75%  { color: #FFEC6E; text-shadow: 0 0 12px rgba(255, 215, 0, 1); }
+  100% { color: #FFD700; text-shadow: 0 0 4px rgba(255, 215, 0, 0.4); }
+}
+
+.gold-sparkle {
+  animation: goldSparkle 2.5s ease-in-out infinite;
+  display: inline-block;
 }
