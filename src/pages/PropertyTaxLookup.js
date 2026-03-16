@@ -350,6 +350,10 @@ function PropertyTaxLookup() {
           )}
         </div>
       )}
+
+      <p style={{ marginTop: "24px", fontSize: "0.8em", color: "#888" }}>
+        ⚠️ Property tax laws change frequently. Always verify exemption details with your county assessor or official state source before making relocation decisions.
+      </p>
     </div>
   );
 }
