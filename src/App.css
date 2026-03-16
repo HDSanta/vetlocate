@@ -12,12 +12,12 @@
 }
 
 .nav-brand {
-  color: #CD7F32;
+  color: #f5e44d;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
   text-decoration: none;
-  text-shadow: 0 0 6px rgba(205, 127, 50, 0.4);
+  text-shadow: 0 0 8px rgba(242, 224, 150, 0.825);
 }
 
 .nav-links {
